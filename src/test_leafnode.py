@@ -1,10 +1,6 @@
 import unittest
 
-from htmlnode import HTMLNode
-from leadnode import LeafNode
-
-
-
+from leafnode import LeafNode
 class TestLeafNode(unittest.TestCase):    
     def test_leaf_href(self):
         props = {"one": "value_one", "two": "value_two"}
