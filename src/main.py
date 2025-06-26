@@ -34,12 +34,9 @@ def crawler_content(dir_path, basepath):
 
 def main():
     if len(sys.argv) > 0:
-        basepath = sys.argv[0]
+        basepath = sys.argv[1]
     else:
         basepath = "/"
-
-
-
 
     print("Copying static files to public directory...")
     copystatic()
