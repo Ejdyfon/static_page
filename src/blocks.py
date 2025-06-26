@@ -1,6 +1,6 @@
 from enum import Enum
 
-from main import markdown_to_blocks, text_node_to_html_node, text_to_textnodes
+from functions import markdown_to_blocks, text_node_to_html_node, text_to_textnodes
 from parentnode import ParentNode
 from textnode import TextNode, TextType
 
